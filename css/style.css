@@ -360,7 +360,7 @@ nav ul li{
 /* fourth section */
 #合作组织{
     background-color: white;
-    height: 90vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -372,6 +372,8 @@ nav ul li{
     padding:24px;
     width: 8px;
     z-index:2;
+    margin-top: 4rem;
+    margin-bottom: -1rem;
 }
 
 #合作组织 h1{
@@ -415,7 +417,7 @@ nav ul li{
 
 #曜聘服务{
     background-image: url("../image/1x/FifthSection/4thBg.png");
-    height: 85vh;
+    height: 90vh;
     background-size: cover;
     z-index:-1;
 }
@@ -433,6 +435,7 @@ nav ul li{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    margin-top: 3rem;
 }
 
 .FourthText h1{
@@ -519,7 +522,7 @@ nav ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 65vh;
+    height: 75vh;
 }
 
 #客户反馈 > p{
