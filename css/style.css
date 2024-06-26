@@ -1,0 +1,669 @@
+/* first section */
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    height:100%;
+    /* overflow:hidden; */
+}
+
+#firstPart{
+    background-image: url('../image/1x/FirstSection/Bg1.png');
+    /* position:fiexed; */
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100vh;
+    background-size: cover;
+    z-index:-1;
+    overflow: hidden;
+}
+
+nav{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#logo{
+    padding-top:1rem;
+    height: 5rem;
+}
+
+ul{
+    list-style: none;
+    color: white;
+    margin-left: -20rem;
+}
+
+nav ul li{
+    display: inline-block;
+    padding:2rem;   
+}
+
+#login{
+    background-color: transparent;
+    border: 2px solid white;
+    color:white;
+    border-radius: 20px;
+    padding:10px 30px;
+    cursor:pointer;
+}
+
+#title1{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 45px;
+    color:white;
+    font-weight: bold;
+}
+
+#title2{
+    position: absolute;
+    top:38%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 28px;
+    color:white;
+}
+
+.footer1{
+    position: absolute;
+    bottom: 10%;
+    width: 90%;
+    margin-left:5%;
+}
+
+#horizontal-line{
+    
+}
+
+#topfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#topfooter p{
+    color:white;
+    margin-bottom: -1rem;
+    padding-bottom: 8px; 
+
+}
+
+#moveright{
+    padding-left: 2rem;
+}
+
+.footer p{
+    font-size: 12px;
+}
+
+#movemiddle{
+    margin-right: 10rem;
+    padding-right: 8rem;
+    position: relative; 
+    z-index: 2;
+}
+
+.middleTopText{
+    margin-top: -2.5rem;
+    margin-bottom: -2rem;
+}
+
+#worldmap{
+    height: 8rem;
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.textsize1{
+    height: 11px;
+}
+
+#leftTopText{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+#leftTopText p{
+    padding-bottom: 5px;
+}
+
+#smalltext{
+    font-size: 10px;
+}
+
+.textsize2{
+    height: 12px;
+    align-self: flex-start;
+    padding-top: 5px;
+}
+
+#bottomleftText p{
+    color:white;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+#rightTopText{
+    display: flex;
+    flex-direction: column;
+}
+
+#bottomfooter{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottomfooter p{
+    color:white;
+}
+
+#moveleft{
+    margin-top: -1rem;
+    margin-left: -10rem;
+}
+
+#bottomfooter button{
+    background-color: transparent;
+    border: 2px solid white;
+    color:white;
+    border-radius: 20px;
+    padding:7px 20px;
+    cursor:pointer;
+}
+
+/* second section */
+#AboutUs{
+    background-color: white;
+    /* overflow: hidden; */
+    background-size: cover;
+    height: 23rem;
+    
+}
+
+
+
+#container{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BigHouselogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin-bottom: -45rem;
+    padding:0;
+    width: 100%;
+}
+
+#BigLogo{
+    height: 40rem;
+    margin-top: 2rem;
+    z-index:1;
+}
+
+#container h1{
+    color:black;
+    z-index:2;
+    font-size: 3rem;
+    margin-top: 13rem;
+}
+
+#line1{
+    border-bottom: 2px solid #A5A5A5;
+    padding:25px;
+    position:relative;
+    z-index:2;
+    top:12rem;
+}
+
+#AboutUsText{
+    z-index:2;
+    position:relative;
+    top:10rem;
+}
+
+.Chess{
+    height: 11rem;
+    z-index:2;
+    margin-top: 2rem;
+}
+
+.Texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index:2;
+    margin-top: -4rem;
+}
+
+.Texts p{
+    font-size: 10px;
+    color: #B2B2B2 !important;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    margin-top:0;
+}
+
+.gap{
+    padding-top:0.5rem;
+}
+
+.textsize{
+    font-size: 5px !important;
+}
+
+
+/* third section  */
+#政府引才{
+    background-image: url("../image/1x/ThirdSection/Govbg.png");
+    height: 60vh;
+    background-size: cover;
+    z-index:-1;
+    margin-top:30rem;
+}
+
+#Govcontainer{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    gap:2rem;
+}
+
+#line2{
+    border-bottom: 2px solid #A5A5A5;
+    padding:25px;
+    position:relative;
+    z-index:2;
+    width: 10px;
+}
+
+#GovcontainerLeft h1{
+    font-size: 3rem;
+}
+
+#Carousel1{
+    height: 35rem;
+}
+
+/* fourth section */
+#合作组织{
+    background-color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#line3{
+    border-bottom: 4px solid #A5A5A5;
+    padding:30px;
+    width: 10px;
+    z-index:2;
+}
+
+#合作组织 h1{
+    font-size: 3rem;
+}
+
+#合作组织 p{
+    color: #666666;
+}
+
+.Coop-logos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    width:80%;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:5rem;
+    padding-bottom:12rem;
+}
+
+.logo {
+    width: 18%; 
+    margin-bottom: 10px; 
+  }
+
+.logo img {
+    height: 100%;
+    width: 60%;
+}
+
+.resizeLogo{
+    width: 30% !important;
+    /* height: 50% !important; */
+    padding-left: 2.5rem;
+}
+
+/* fifth section */
+
+#曜聘服务{
+    background-image: url("../image/1x/FifthSection/4thBg.png");
+    height: 85vh;
+    background-size: cover;
+    z-index:-1;
+
+}
+
+#line4{
+    border-bottom: 2px solid #A5A5A5;
+    padding:25px;
+    position:relative;
+    z-index:2;
+    width: 10px;
+}
+
+.FourthText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.FourthText h1{
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    z-index:2;
+}
+
+.FourthText p{
+    margin-top: 0.3rem;
+    z-index:2;
+    color: #666666;
+}
+
+#YAOPING2{
+    height: 12rem;
+    width: 60%;
+    z-index: 1;
+    position: relative;
+    top:-10rem;
+}
+
+.FourServices{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8rem;
+}
+
+.Service{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 20%;
+    height: 27rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Service img{
+    height: 13rem;
+    margin-top:-2.5rem;
+    margin-bottom: -5rem;
+}
+.gradient-line {
+    width: 60%; 
+    height: 2px; 
+    background: linear-gradient(to right, white, black, white); /* 从左到右的渐变 */
+}
+
+.Service h2{
+    font-size: 2rem;
+}
+
+.Service p{
+    margin-top: 0.7rem;
+    color: #666666;
+}
+
+/* sixth section */
+#客户反馈{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#客户反馈 > p{
+    color:#666666;
+    margin-top:0;
+
+}
+
+#客户反馈 p{
+    z-index:2;
+}
+
+#客户反馈 h1{
+    z-index:2;
+}
+
+#YAOPING3{
+    width: 70rem;
+    height: 15rem;
+    margin-top:3rem;
+    z-index:0;
+}
+
+.FeedbackContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15rem;
+    height: 40vh;
+}
+
+.Feedback{
+    display: flex;
+    justify-content: space-between;
+}
+
+.redline{
+    border-right: 2px solid #AD6C1E;
+    padding:25px;
+    height: 12rem;
+    z-index:2;
+}
+
+.info{
+    z-index:2;
+    padding-left:1rem;
+}
+
+.infoimage{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.infoimage img{
+    height: 5rem;
+    padding-right: 1rem;
+}
+
+.infoimage p{
+    color: #666666;
+}
+
+.infotext{
+    padding-bottom: 1rem;
+}
+
+.CarouselButtons{
+    margin-top:-6.5rem;
+    padding-bottom: 4rem;
+}
+
+.Cbs img{
+    width: 10rem;
+}
+
+/* Seventh Section */
+.SeventhSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/1x/SeventhSection/Bg.png");
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 100%;
+    top:0;
+    left:0;
+    background-size: cover;
+}
+
+.SeventhSection img{
+    height: 6vh;
+}
+
+/* 品牌优势 */
+#品牌优势{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7rem;
+    height: 100vh;
+}
+
+#品牌优势 p{
+    color:#666666;
+    z-index:2;
+}
+
+#品牌优势 h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+#品牌优势 img{
+    z-index:0;
+}
+
+#DotWorldMap{
+    height: 40rem;
+    margin-top: -12.5rem;
+    margin-bottom: -25rem;
+}
+
+.advContainer{
+    display: flex;
+    gap: 5rem;
+}
+
+.advantage {
+    
+}
+
+.advantage h3{
+    color: #AD6C1E;
+}
+
+.advantage p{
+    color: #242323;
+}
+
+.gradient-line2{
+    width: 28rem; 
+    height: 1px; 
+    background: linear-gradient(to right, #726c6c, #cccccc, transparent);
+}
+
+#movetop{
+    margin-top: -10rem;
+}
+
+.Component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movebottom{
+    margin-top: 20rem;
+
+}
+
+/* Footer */
+footer{
+    background-color: #242424;
+    height: 38vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer p{
+    color: white;
+}
+
+.social-media-layout{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media-layout img{
+    height: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.footer-columne{
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-columne h4{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.footer-columne p{
+    margin-bottom: 0;
+}
+
+#movebottom2{
+    margin-top: 11rem;
+}
+
+#arrange1{
+    margin-top: -0.6rem;
+}
+
+#arrange2{
+    height: 2rem;
+}
+
+#movebottom3{
+    padding-top: 3rem;
+}
+
+#咨询{
+    height: 4rem;
+}
