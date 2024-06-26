@@ -1,5 +1,3 @@
-/* first section */
-
 body{
     display: flex;
     flex-direction: column;
@@ -28,173 +26,211 @@ nav{
 
 #logo{
     padding-top:1rem;
-    height: 5rem;
+    height: 4rem;
 }
 
 ul{
     list-style: none;
     color: white;
-    margin-left: -20rem;
+    margin-left: -12rem;
 }
 
 nav ul li{
     display: inline-block;
-    padding:2rem;   
+    padding:1.6rem;   
 }
 
 #login{
     background-color: transparent;
-    border: 2px solid white;
+    border: 1.6px solid white;
     color:white;
-    border-radius: 20px;
-    padding:10px 30px;
+    border-radius: 16px;
+    /* padding:10px 24px; */
+    width: 5rem;
+    height: 2rem;
     cursor:pointer;
+    margin-top: 2.3rem;
+    margin-left:-10rem;
 }
 
 #title1{
     position: absolute;
-    top:30%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top:28%;
+    left:47%;
+    transform: translate(-40%,-40%);
     text-align: center;
-    font-size: 45px;
+    font-size: 36px;
     color:white;
     font-weight: bold;
 }
 
 #title2{
     position: absolute;
-    top:38%;
-    left:50%;
-    transform: translate(-50%,-50%);
+    top:36.6%;
+    left:48%;
+    transform: translate(-40%,-40%);
     text-align: center;
-    font-size: 28px;
+    font-size: 22.4px;
     color:white;
 }
 
 .footer1{
     position: absolute;
-    bottom: 10%;
+    bottom: 8%;
     width: 90%;
-    margin-left:5%;
+    margin-left:4%;
 }
 
 #horizontal-line{
+    border-top: 1px solid white;
+    width: 100%;
+    margin-left: 0.8rem;
     
 }
 
 #topfooter{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 #topfooter p{
     color:white;
-    margin-bottom: -1rem;
-    padding-bottom: 8px; 
+    
+    margin-bottom: -0.8rem;
+    padding-bottom: 6.4px; 
+    transform: scale(0.6);
 
 }
 
-#moveright{
-    padding-left: 2rem;
+.moveright1{
+    margin-left: 2rem;
 }
+
 
 .footer p{
-    font-size: 12px;
+    font-size: 9.6px;
 }
 
 #movemiddle{
-    margin-right: 10rem;
-    padding-right: 8rem;
+    margin-right: 8rem;
+    padding-right: 6.4rem;
     position: relative; 
     z-index: 2;
 }
 
 .middleTopText{
-    margin-top: -2.5rem;
-    margin-bottom: -2rem;
+    margin-top: -1rem;
+    margin-bottom: -1.6rem;
+    margin-left: -4rem;
+}
+
+.middleTopText p{
+    font-size: 11px;
+    font-weight: bold;
 }
 
 #worldmap{
-    height: 8rem;
+    height: 4.5rem;
     position: absolute;
-    top: 0; 
-    left: 50%;
-    transform: translateX(-50%);
+    bottom:8%;
+    left: 51%;
+    transform: translateX(-40%);
     z-index: 1;
 }
 
 .textsize1{
-    height: 11px;
+    height: 8.8px;
 }
 
 #leftTopText{
     display: flex;
     flex-direction: column;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
+    margin-left: -4.8rem;
+    margin-bottom: 0.8rem;
 }
 
 #leftTopText p{
-    padding-bottom: 5px;
+    padding-bottom: 4px;
 }
 
 #smalltext{
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .textsize2{
-    height: 12px;
+    height: 9.6px;
     align-self: flex-start;
-    padding-top: 5px;
+    padding-top: 4px;
 }
 
 #bottomleftText p{
     color:white;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 
 #rightTopText{
     display: flex;
     flex-direction: column;
+    gap: 2px;
+    margin-right: -2rem;
+    margin-bottom: 0.8rem;
 }
 
-#bottomfooter{
+#rightTopText p{
+    padding: 2px;
+    margin-top:1px;
+}
+
+.bottomfooter{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0.7rem; 
 }
 
-#bottomfooter p{
+.bottomfooter p{
     color:white;
+    font-size: 10px;
+    font-weight: bold;
 }
 
-#moveleft{
-    margin-top: -1rem;
-    margin-left: -10rem;
+
+#bottommiddleText{
+    margin-top: -1.6rem;
+    margin-left: -5rem;
 }
 
-#bottomfooter button{
+#bottommiddleText p{
+    font-size: 6px;
+}
+
+
+
+.bottomfooter button{
     background-color: transparent;
-    border: 2px solid white;
+    border: 1.6px solid white;
     color:white;
-    border-radius: 20px;
-    padding:7px 20px;
+    border-radius: 16px;
+    padding:1px 16px;
     cursor:pointer;
+    height: 2rem;
+    font-size: 11px;
 }
 
 /* second section */
 #AboutUs{
     background-color: white;
     /* overflow: hidden; */
-    background-size: cover;
-    height: 23rem;
+    background-size: 80% cover;
+    height: 18.4rem;
     
 }
-
-
 
 #container{
     /* position: relative; */
@@ -208,43 +244,45 @@ nav ul li{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 9.5rem;
     z-index: 0;
-    margin-bottom: -45rem;
+    margin-bottom: -36rem;
     padding:0;
-    width: 100%;
+    width: 80%;
 }
 
 #BigLogo{
-    height: 40rem;
-    margin-top: 2rem;
+    height: 32rem;
+    margin-top: 1.6rem;
     z-index:1;
 }
 
 #container h1{
     color:black;
     z-index:2;
-    font-size: 3rem;
-    margin-top: 13rem;
+    font-size: 2.4rem;
+    margin-top: 10.4rem;
 }
 
 #line1{
-    border-bottom: 2px solid #A5A5A5;
-    padding:25px;
+    border-bottom: 1.6px solid #A5A5A5;
+    padding:20px;
     position:relative;
     z-index:2;
-    top:12rem;
+    top:9.6rem;
 }
 
-#AboutUsText{
+.AboutUsText{
     z-index:2;
-    position:relative;
-    top:10rem;
+    font-size: 12.5px;
+    margin-top: 0.5rem;
+    color: #666666;
 }
 
 .Chess{
-    height: 11rem;
+    height: 8.8rem;
     z-index:2;
-    margin-top: 2rem;
+    margin-top: 1.6rem;
 }
 
 .Texts{
@@ -253,62 +291,76 @@ nav ul li{
     justify-content: center;
     align-items: center;
     z-index:2;
-    margin-top: -4rem;
+    margin-top: -3.2rem;
 }
 
 .Texts p{
-    font-size: 10px;
+    font-size: 6px !important;
     color: #B2B2B2 !important;
     margin-bottom: 0;
-    padding-bottom: 2px;
+    padding-bottom: 1.6px;
     margin-top:0;
 }
 
 .gap{
-    padding-top:0.5rem;
+    padding-top:0.4rem;
 }
 
 .textsize{
-    font-size: 5px !important;
+    font-size: 4px !important;
 }
-
 
 /* third section  */
 #政府引才{
     background-image: url("../image/1x/ThirdSection/Govbg.png");
-    height: 60vh;
+    height: 67vh;
     background-size: cover;
     z-index:-1;
-    margin-top:30rem;
+    margin-top:24rem;
 }
 
 #Govcontainer{
     display: flex;
-    margin-top: 4rem;
-    margin-left: 10rem;
-    gap:2rem;
+    margin-top: 3.2rem;
+    margin-left: 8rem;
+    gap:1.6rem;
 }
 
 #line2{
-    border-bottom: 2px solid #A5A5A5;
-    padding:25px;
+    border-bottom: 1.6px solid #A5A5A5;
+    padding:20px;
     position:relative;
     z-index:2;
-    width: 10px;
+    width: 8px;
 }
 
 #GovcontainerLeft h1{
-    font-size: 3rem;
+    font-size: 2.4rem;
+}
+
+#GovcontainerLeft p{
+    font-size: 12.5px;
+    color: #666666;
 }
 
 #Carousel1{
-    height: 35rem;
+    height: 28rem;
+    z-index: 1;
+    margin-left: -10rem;
+}
+
+#YaoPingimg{
+    margin-left: -8rem;
+    margin-top: 2.5rem;
+    height: 12rem;
+    padding:0;
+    z-index:0;
 }
 
 /* fourth section */
 #合作组织{
     background-color: white;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -316,45 +368,47 @@ nav ul li{
 }
 
 #line3{
-    border-bottom: 4px solid #A5A5A5;
-    padding:30px;
-    width: 10px;
+    border-bottom: 3.2px solid #A5A5A5;
+    padding:24px;
+    width: 8px;
     z-index:2;
 }
 
 #合作组织 h1{
-    font-size: 3rem;
+    font-size: 2.4rem;
 }
 
 #合作组织 p{
+    font-size: 12.5px;
+    margin-top: 0;
     color: #666666;
 }
 
 .Coop-logos{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 5rem;
+    margin-left: 7rem;
     width:80%;
     align-items: center;
     justify-content: space-between;
-    padding-top:5rem;
-    padding-bottom:12rem;
+    padding-top:4rem;
+    padding-bottom:9.6rem;
 }
 
 .logo {
-    width: 18%; 
-    margin-bottom: 10px; 
-  }
+    width: 20%; 
+    margin-bottom: 8px; 
+}
 
 .logo img {
-    height: 100%;
-    width: 60%;
+    height: 80%;
+    width: 48%;
 }
 
 .resizeLogo{
-    width: 30% !important;
+    width: 24% !important;
     /* height: 50% !important; */
-    padding-left: 2.5rem;
+    padding-left: 2rem;
 }
 
 /* fifth section */
@@ -364,15 +418,14 @@ nav ul li{
     height: 85vh;
     background-size: cover;
     z-index:-1;
-
 }
 
 #line4{
     border-bottom: 2px solid #A5A5A5;
-    padding:25px;
+    padding:20px;
     position:relative;
     z-index:2;
-    width: 10px;
+    width: 8px;
 }
 
 .FourthText{
@@ -380,36 +433,36 @@ nav ul li{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
- 
 }
 
 .FourthText h1{
-    font-size: 3rem;
-    margin-top: 1rem;
-    margin-bottom: 1.5rem;
+    font-size: 2.4rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1.2rem;
     z-index:2;
 }
 
 .FourthText p{
-    margin-top: 0.3rem;
+    font-size: 12px;
+    margin-top: 0.24rem;
     z-index:2;
     color: #666666;
 }
 
 #YAOPING2{
-    height: 12rem;
-    width: 60%;
+    height: 9.6rem;
+    width: 48%;
     z-index: 1;
     position: relative;
-    top:-10rem;
+    top:-8rem;
 }
 
 .FourServices{
     display: flex;
-    gap: 1.5rem;
+    gap: 1.2rem;
     justify-content: center;
     align-items: center;
-    margin-top: -8rem;
+    margin-top: -6.4rem;
 }
 
 .Service{
@@ -419,28 +472,45 @@ nav ul li{
     /* justify-content: center; */
     align-items: center;
     width: 20%;
-    height: 27rem;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 21.6rem;
+    border-radius: 8px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.Service h2{
+    font-size: 20px;
 }
 
 .Service img{
-    height: 13rem;
-    margin-top:-2.5rem;
-    margin-bottom: -5rem;
+    height: 10.4rem;
+    margin-top:-2rem;
+    margin-bottom: -4rem;
 }
+
+.Service p{
+    font-size: 12.5px;
+    color: #3f3c3c;
+    font-weight: bold;
+    margin-top: 0.1rem;
+}
+
+#Chess1{
+    height: 43%;
+    margin-bottom: -2.77rem;
+}
+
 .gradient-line {
-    width: 60%; 
-    height: 2px; 
+    width: 48%; 
+    height: 1.6px; 
     background: linear-gradient(to right, white, black, white); /* 从左到右的渐变 */
 }
 
 .Service h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .Service p{
-    margin-top: 0.7rem;
+    margin-top: 0.56rem;
     color: #666666;
 }
 
@@ -449,12 +519,13 @@ nav ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 65vh;
 }
 
 #客户反馈 > p{
-    color:#666666;
+    font-size: 13px;
+    color:#3a3737;
     margin-top:0;
-
 }
 
 #客户反馈 p{
@@ -462,21 +533,31 @@ nav ul li{
 }
 
 #客户反馈 h1{
+    font-size: 2.4rem;
     z-index:2;
 }
 
 #YAOPING3{
-    width: 70rem;
-    height: 15rem;
-    margin-top:3rem;
+    width: 56rem;
+    height: 12rem;
+    margin-top:2.4rem;
     z-index:0;
+}
+
+.customer h3{
+    font-size: 12px;
+}
+
+.customer p{
+    font-size: 11px;
+    color: #666666;
 }
 
 .FeedbackContainer{
     display: flex;
     justify-content: space-between;
-    margin-top: -15rem;
-    height: 40vh;
+    margin-top: -12rem;
+    height: 32vh;
 }
 
 .Feedback{
@@ -485,15 +566,15 @@ nav ul li{
 }
 
 .redline{
-    border-right: 2px solid #AD6C1E;
-    padding:25px;
-    height: 12rem;
+    border-right: 1.6px solid #AD6C1E;
+    padding:20px;
+    height: 9.6rem;
     z-index:2;
 }
 
 .info{
     z-index:2;
-    padding-left:1rem;
+    padding-left:0.8rem;
 }
 
 .infoimage{
@@ -502,25 +583,26 @@ nav ul li{
 }
 
 .infoimage img{
-    height: 5rem;
-    padding-right: 1rem;
+    height: 4rem;
+    padding-right: 0.8rem;
 }
 
 .infoimage p{
-    color: #666666;
+    color: #343131;
 }
 
 .infotext{
-    padding-bottom: 1rem;
+    font-size: 12px;
+    padding-bottom: 0.8rem;
 }
 
 .CarouselButtons{
-    margin-top:-6.5rem;
-    padding-bottom: 4rem;
+    margin-top: 1rem;
+    padding-bottom: 3.2rem;
 }
 
 .Cbs img{
-    width: 10rem;
+    width: 8rem;
 }
 
 /* Seventh Section */
@@ -530,7 +612,7 @@ nav ul li{
     align-items: center;
     background-image: url("../image/1x/SeventhSection/Bg.png");
     background-repeat: no-repeat;
-    height: 10vh;
+    height: 8vh;
     width: 100%;
     top:0;
     left:0;
@@ -546,33 +628,42 @@ nav ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 7rem;
-    height: 100vh;
+    padding-top: 4rem;
+    height: 95vh;
 }
 
 #品牌优势 p{
     color:#666666;
     z-index:2;
+    font-size: 12px;
+}
+
+#品牌优势 > p{
+    color: #3a3737;
+    margin-top: -0.5rem;
+    margin-bottom: 9rem;
 }
 
 #品牌优势 h1{
-    margin-top: 1rem;
-    font-size: 3rem;
+    margin-top: 0.8rem;
+    font-size: 2.4rem;
 }
+
 
 #品牌优势 img{
     z-index:0;
 }
 
 #DotWorldMap{
-    height: 40rem;
-    margin-top: -12.5rem;
-    margin-bottom: -25rem;
+    height: 32rem;
+    margin-top: -17rem;
+    margin-bottom: -20rem;
 }
 
 .advContainer{
     display: flex;
-    gap: 5rem;
+    gap: 4rem;
+    margin-top: -1rem;
 }
 
 .advantage {
@@ -581,20 +672,23 @@ nav ul li{
 
 .advantage h3{
     color: #AD6C1E;
+    font-size: 0.85rem;
+    font-weight: bold;
 }
 
 .advantage p{
     color: #242323;
+    font-weight: bold;
 }
 
 .gradient-line2{
-    width: 28rem; 
-    height: 1px; 
+    width: 22.4rem; 
+    height: 0.8px; 
     background: linear-gradient(to right, #726c6c, #cccccc, transparent);
 }
 
 #movetop{
-    margin-top: -10rem;
+    margin-top: -15rem;
 }
 
 .Component{
@@ -602,11 +696,14 @@ nav ul li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
+    margin-left: 1rem;
 }
 
-.movebottom{
-    margin-top: 20rem;
 
+
+.movebottom{
+    margin-top: 18rem;
 }
 
 /* Footer */
@@ -620,20 +717,25 @@ footer{
 
 footer p{
     color: white;
+    font-size: 12px;
+}
+
+footer h4{
+    font-size: 13px;
 }
 
 .social-media-layout{
     display: flex;
-    gap: 1rem;
+    gap: 1.25rem;
 }
 
 .social-media-layout img{
-    height: 1.4rem;
-    margin-bottom: 1.4rem;
+    height: 1.12rem;
+    margin-bottom: 1.12rem;
 }
 
 .footer-columne{
-    margin-top: -5rem;
+    margin-top: -4rem;
     display: flex;
     flex-direction: column;
 
@@ -641,7 +743,7 @@ footer p{
 
 .footer-columne h4{
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 1.6rem;
 }
 
 .footer-columne p{
@@ -649,21 +751,25 @@ footer p{
 }
 
 #movebottom2{
-    margin-top: 11rem;
+    margin-top: 10rem;
 }
 
-#arrange1{
-    margin-top: -0.6rem;
-}
+/* #arrange1{
+    margin-top: -rem;
+} */
 
 #arrange2{
-    height: 2rem;
+    height: 1.6rem;
+}
+
+#arrange3{
+    margin-top: 0.45rem;
 }
 
 #movebottom3{
-    padding-top: 3rem;
+    margin-top: -4rem;
 }
 
 #咨询{
-    height: 4rem;
+    height: 3rem;
 }
